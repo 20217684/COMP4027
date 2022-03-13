@@ -1,0 +1,48 @@
+% Title: Mortgage Data Set
+% Number of Instances: 30
+% Number of Attributes: 9
+%
+
+@relation sample
+
+@attribute CustomerID numeric
+@attribute MortgageApproved {Yes,No}
+@attribute Gender {Male,Female}
+@attribute Age numeric
+@attribute MarritalStatus {Married,Single}
+@attribute NumChildren numeric
+@attribute MonthlyIncome numeric
+@attribute MoneyInBank numeric
+@attribute MortgageAmount numeric
+
+@data
+1,No,Male,50,Married,2,102000,1500000,5000000
+2,No,Male,25,Single,0,25000,100000,8000000
+3,Yes,Female,18,Married,0,21000,200000,2500000
+4,No,Male,23,Single,0,12000,300000,2800000
+5,Yes,Male,45,Single,0,37520,2000000,3500000
+6,No,Male,43,Married,3,43680,505411,1500000
+7,Yes,Male,55,Married,2,0,15200000,2700000
+8,Yes,Female,27,Married,?,57080,780000,3000000
+9,Yes,Male,19,Single,0,8000,800000,1600000
+10,No,?,20,Married,0,15000,150000,1900000
+11,No,Male,34,Married,0,37050,377050,3000000
+12,Yes,Female,26,Married,1,12500,520500,800000
+13,Yes,Male,28,Married,0,13750,1253750,1500000
+14,Yes,Male,39,Married,1,124000,2584000,5000000
+15,Yes,Female,34,Single,0,463222,1000000,6000000
+16,Yes,Female,42,Married,2,569832,1369832,2300000
+17,No,Male,41,Married,1,0,0,0
+18,Yes,Male,47,Married,2,9357,14646121,5000000
+19,Yes,Male,52,Married,2,15542,450542,1000000
+20,No,Female,34,Single,0,83268,563268,2000000
+21,No,Male,38,Married,?,46752,2522521,9000000
+22,No,Male,31,Married,0,?,1083621,10000000
+23,No,Female,29,Married,0,12832,822400,3000000
+24,No,Male,24,Single,0,4632,500000,2000000
+25,Yes,Male,39,Single,0,17631,1500000,3000000
+26,Yes,?,54,Married,0,136312,5046200,7000000
+27,Yes,Female,34,Married,0,16625,866250,2000000
+28,No,Male,35,Married,1,8244,300000,2500000
+29,No,Male,46,Single,0,12630,320630,2000000
+30,No,Male,36,Single,0,150000,150000,3000000
